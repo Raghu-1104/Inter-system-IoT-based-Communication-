@@ -26,5 +26,5 @@ while True:
         print(message.decode())
         uart.write(b'Hello from Raspberry Pi Pico\n')
         time.sleep(1)
-In this example, the code creates a UART object and continuously checks for incoming data using the any method. When it receives a message, it prints it to the terminal and sends a response "Connection from Raspberry Pi Pico" using the write method.
+'''In this example, the code creates a UART object and continuously checks for incoming data using the any method. When it receives a message, it prints it to the terminal and sends a response "Connection from Raspberry Pi Pico" using the write method.'''
 
